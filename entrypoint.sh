@@ -7,8 +7,8 @@ cat << EOF > /etc/xray/config.json
 {
   "inbounds": [
     {
-      "host":"104.17.113.188",
-      "port": "80",
+     
+      "port": $PORT,
       "protocol": "vmess",
       "settings": {
         "decryption": "none",
